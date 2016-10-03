@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.erikphansen.LaunchBar.action.DateEpochJS</string>
+	<key>CFBundleName</key>
+	<string>Date from Epoch (JS)</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Erik P. Hansen</string>
+		<key>LBEmail</key>
+		<string>eph@erikphansen.com</string>
+		<key>LBSummary</key>
+		<string>Takes milliseconds since Jan 1 1970 and returns a date in both local time and GMT</string>
+		<key>LBTwitter</key>
+		<string>@eirkeirkeirk</string>
+		<key>LBWebsiteURL</key>
+		<string>blog.erikphansen.com</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Enter epoch in ms since Jan 1 1970</string>
+</dict>
+</plist>
