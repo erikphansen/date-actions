@@ -5,20 +5,32 @@
 	<key>CFBundleIconFile</key>
 	<string>com.apple.iCal</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.LaunchBar.action.Now</string>
+	<string>com.erikphansen.LaunchBar.action.EpochFromDate</string>
 	<key>CFBundleName</key>
-	<string>Epoch From Date</string>
+	<string>Epoch From Date (JS)</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>LBArgument</key>
+	<string>date string</string>
 	<key>LBDescription</key>
 	<dict>
+		<key>LBArgument</key>
+		<string>date string</string>
 		<key>LBAuthor</key>
-		<string></string>
+		<string>Erik P. Hansen</string>
 		<key>LBEmail</key>
-		<string></string>
+		<string>eph@erikphansen.com</string>
+		<key>LBResult</key>
+		<string>epoch timestamp</string>
+		<key>LBSummary</key>
+		<string>Returns an epoch timestamp, ms since Jan 1 1970, from a given date</string>
 		<key>LBTwitter</key>
-		<string></string>
+		<string>eirkeirkeirk</string>
 		<key>LBWebsiteURL</key>
-		<string></string>
+		<string>blog.erikphansen.com</string>
 	</dict>
+	<key>LBResult</key>
+	<string>epoch timestamp</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
@@ -38,6 +50,6 @@
 		</dict>
 	</dict>
 	<key>LBTextInputTitle</key>
-	<string>Jan 01 1970 12:00</string>
+	<string>2001-01-31 or Jan 31 2001 12:00</string>
 </dict>
 </plist>

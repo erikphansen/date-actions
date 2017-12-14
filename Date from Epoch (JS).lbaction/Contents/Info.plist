@@ -8,6 +8,8 @@
 	<string>com.erikphansen.LaunchBar.action.DateEpochJS</string>
 	<key>CFBundleName</key>
 	<string>Date from Epoch (JS)</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
